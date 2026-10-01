@@ -1,6 +1,6 @@
 (function(){
   // WhatsApp da Dra. Cristiane. Enquanto estiver vazio, os botoes levam ao Instagram (que funciona).
-  var WHATS = '5500000000000'; // PLACEBO (DDD 00 nao existe). TROCAR pelo numero real dela depois da aprovacao, ex.: '5565999999999'
+  var WHATS = '5565992371941'; // WhatsApp da Dra. Cristiane
   var FALLBACK = 'https://www.instagram.com/dra.cristiane.microbiologia/';
   function wa(txt){ return WHATS ? 'https://wa.me/'+WHATS+'?text='+encodeURIComponent(txt) : FALLBACK; }
   document.querySelectorAll('[data-wa]').forEach(function(a){
