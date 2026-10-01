@@ -81,7 +81,7 @@ h3{font-size:22px}
 
 /* SOBRE */
 .sobre{display:grid;grid-template-columns:.8fr 1.2fr;gap:64px;align-items:center}
-.sobre__foto img{border-radius:24px;box-shadow:0 30px 70px rgba(42,26,18,.28);aspect-ratio:1/1;object-fit:cover;object-position:50% 20%}
+.sobre__foto img{border-radius:24px;box-shadow:0 30px 70px rgba(42,26,18,.28);aspect-ratio:4/5;object-fit:cover;object-position:50% 30%}
 .sobre p{margin-top:18px;color:#46352a;font-size:17.5px}
 .sobre p:first-of-type{margin-top:22px}
 .nums{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:36px}
