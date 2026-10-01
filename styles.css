@@ -140,6 +140,12 @@ h3{font-size:22px}
 .play{position:absolute;inset:auto auto 14px 14px;width:46px;height:46px;border-radius:50%;background:rgba(27,17,12,.78);backdrop-filter:blur(6px);display:grid;place-items:center;border:1px solid rgba(255,255,255,.35)}
 .play svg{width:20px;height:20px;fill:#fff;margin-left:2px}
 
+/* GALERIA DE ARTES */
+.car__track--arte{gap:16px}
+.car__track--arte figure{flex:0 0 min(68vw,290px);border:1px solid var(--linha);background:var(--cacau);transition:transform .35s var(--ease),box-shadow .3s}
+.car__track--arte figure:hover{transform:translateY(-6px);box-shadow:0 26px 50px rgba(0,0,0,.45)}
+.car__track--arte figure img{aspect-ratio:9/16;object-fit:cover}
+
 /* CONTATO */
 .sec--contato{background:radial-gradient(70% 90% at 50% 0%,#4a2e1f 0%,var(--cacau) 70%);text-align:center;border-top:1px solid var(--linha)}
 .contato{max-width:760px}
