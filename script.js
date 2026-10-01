@@ -44,4 +44,16 @@
       requestAnimationFrame(function(){ var y=Math.min(window.scrollY,700); pf.style.transform='translateY('+(y*0.06)+'px)'; tick=false; });
     },{passive:true});
   }
+
+  // filtros da producao cientifica
+  var arts=document.querySelectorAll('#arts .art'),vazio=document.getElementById('arts-vazio');
+  var f={cat:'',ano:''};
+  document.querySelectorAll('.filtros .chip').forEach(function(b){
+    b.addEventListener('click',function(){
+      var g=b.dataset.f; f[g]=b.dataset.v;
+      document.querySelectorAll('.filtros .chip[data-f="'+g+'"]').forEach(function(x){var on=x===b;x.classList.toggle('is-on',on);x.setAttribute('aria-pressed',on)});
+      var n=0; arts.forEach(function(a){var ok=(!f.cat||a.dataset.cat===f.cat)&&(!f.ano||a.dataset.ano===f.ano);a.hidden=!ok;if(ok)n++});
+      vazio.hidden=n>0;
+    });
+  });
 })();
