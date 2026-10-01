@@ -43,7 +43,7 @@ a{color:inherit}
 .btn--wa:hover{background:#4be37f;border-color:#4be37f}
 .btn svg,.ico{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .btn--wa .dot{fill:currentColor;stroke:none}
-.btn--insta{max-width:100%;text-align:center;background:linear-gradient(45deg,#f09433,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888);border-color:transparent;color:#fff}
+.btn--insta{max-width:100%;text-align:center;white-space:normal;overflow-wrap:anywhere;background:linear-gradient(45deg,#f09433,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888);border-color:transparent;color:#fff}
 .btn--insta:hover{background:linear-gradient(45deg,#f6a54c,#ee7a50 25%,#e4405a 50%,#d63a7a 75%,#c93099);color:#fff;border-color:transparent}
 .btn--insta .dot{fill:currentColor;stroke:none}
 
