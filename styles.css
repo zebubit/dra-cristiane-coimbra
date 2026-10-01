@@ -200,6 +200,15 @@ h3{font-size:22px}
   .chips{position:static;flex-direction:row;flex-wrap:wrap;margin-top:18px}
   .foot__in{flex-direction:column}
 }
+@media (max-width:380px){
+  .nav__in{height:70px}
+  .logo{gap:8px;min-width:0}
+  .logo svg{width:38px;height:27px}
+  .logo__t b{font-size:14.5px}
+  .logo__t small{display:none}
+  .burger{margin-right:-8px}
+}
+.foot a{min-height:44px;display:inline-flex;align-items:center}
 @media (prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
   .reveal{opacity:1;transform:none;transition:none}
