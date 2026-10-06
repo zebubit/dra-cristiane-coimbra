@@ -56,4 +56,7 @@
       vazio.hidden=n>0;
     });
   });
+  // abre em "Caso clinico" (4) para a lista nao ficar longa; "Todos" continua a um toque
+  var inicial=document.querySelector('.filtros .chip[data-f="cat"][data-v="c"]');
+  if(inicial) inicial.click();
 })();
